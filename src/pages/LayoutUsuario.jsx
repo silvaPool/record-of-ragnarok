@@ -1,8 +1,9 @@
 function LayoutUsuario() {
     
     return (
-        <div>
-            skadj
+        <div id="grid">
+            <div id="left"></div>
+            <div id="right"></div>
         </div>
     )
 }
