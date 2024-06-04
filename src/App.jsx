@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Buda from "./pages/Buda";
 import Adao from "./pages/Adao";
 import Home from "./pages/Home";
-import LayoutUsuario from "./pages/LayoutUsuario";
+import LayoutDashboard from "./pages/LayoutDashboard";
 
 function App() {
   return (
@@ -16,7 +16,8 @@ function App() {
         <Route path="/adao" element={<Adao />} />
       </Routes> */}
 
-      <LayoutUsuario />
+      <LayoutDashboard />
+
     </>
   );
 }

@@ -1,4 +1,4 @@
-function LayoutUsuario() {
+function LayoutLoginUsuario() {
     
     return (
         <div id="grid">
@@ -10,4 +10,4 @@ function LayoutUsuario() {
     )
 }
 
-export default LayoutUsuario;
+export default LayoutLoginUsuario;
