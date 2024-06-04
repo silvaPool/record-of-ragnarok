@@ -6,11 +6,11 @@ function LoginButton() {
     const {loginWithRedirect} = useAuth0();
 
     return (
-       <Button
+       <button
         onClick={() => loginWithRedirect()}
        >
             Log In
-       </Button>
+       </button>
     )
 }
 

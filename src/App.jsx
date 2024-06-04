@@ -5,15 +5,18 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Buda from "./pages/Buda";
 import Adao from "./pages/Adao";
 import Home from "./pages/Home";
+import LayoutUsuario from "./pages/LayoutUsuario";
 
 function App() {
   return (
     <>
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/buda" element={<Buda />} />
         <Route path="/adao" element={<Adao />} />
-      </Routes>
+      </Routes> */}
+
+      <LayoutUsuario />
     </>
   );
 }
